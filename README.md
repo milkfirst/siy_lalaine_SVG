@@ -12,6 +12,6 @@ $ git clone
 
 # Go into the repository
 
-$ cd siy_lalaine_SBG
+$ cd siy_lalaine_SVG
 
 ```
