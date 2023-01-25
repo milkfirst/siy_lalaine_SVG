@@ -1,0 +1,54 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden { display: none; }
+
+body    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1  {
+    font-family: 'Chango', cursive;
+    font-size: 50px;
+    font-weight: 600;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+p    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+#container  {
+    text-align: center;
+}
+
+.sticker    {
+    display: inline-block;
+}
+
+.sticker > img  {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    opacity: 0.5;
+}
+
+.sticker > img:hover    {
+    opacity: 1;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
