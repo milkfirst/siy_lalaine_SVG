@@ -1,3 +1,5 @@
+![hand-made](https://user-images.githubusercontent.com/90929523/214759762-d75c8380-5c93-4c4b-9d55-901f5c4d5ef3.svg)
+
 # Syponosis
 Building a simple SVG marketplace with a pop up that toggles and small description.
 
