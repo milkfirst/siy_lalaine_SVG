@@ -1,19 +1,9 @@
 +console.log('JavaScipt is up and running! :D');
 
-const stickerGraphic = document.querySelector('#handMade');
-
-function logThisId()    {
-    console.log('This element is selected:', this.id);
-}
-
-stickerGraphic.addEventListener('click', logThisId);
-
-/* +console.log('JavaScipt is up and running! :D');
-
-const stickerGraphic = document.querySelector('#handMade');
-
-function logThisId()    {
-    console.log('This element is selected:', this.id);
-}
-
-stickerGraphic.addEventListener('click', logThisId); */
+document.querySelector('.sticker').addEventListener('click', function(event) {
+    let selectedImage = event.target;
+    if (selectedImage.tagName === 'IMG') {
+      selectedImage.classList.toggle('selected');
+      console.log(`You selected the sticker, ${selectedImage.id}!`);
+    }
+  });  
